@@ -1,0 +1,93 @@
+
+
+h3{
+    color: #658ec6;
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+main{
+    font-family: "Poppins",sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbed);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 20px;
+    display: flex;
+}
+
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#image{
+    position: relative;
+    right: 153%;
+    border-radius: 20px;
+}
+#fullname{
+    position: relative;
+    right:142%;
+}
+
+#bio{
+    position: relative;
+    right: 140%;
+    font-family: "URW Bookman";
+}
+.display{
+    position: relative;
+    top:-260px;
+}
+
+.vl {
+    border-left: 6px solid slategray;
+    height: 784px;
+    position: absolute;
+    left: 41%;
+    margin-left: -3px;
+    top:98px;
+    opacity: 0.15;
+}
+
+#link {
+    position: absolute;
+    left: 20%;
+}
+.table-responsive{
+    position: relative;
+    bottom:40%;
+    left: 17.9%;
+    width: 65%;
+    border-radius: 20px;
+}
+
+.jumbotron{
+    position: relative;
+    width: 64%;
+    bottom: 36%;
+    left: 17.7%;
+    border-radius: 20px;
+}
+
+.display-5{
+    font-size: 35px;
+    font-family: KacstQurn;
+}
+
